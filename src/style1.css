@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa-gear{
+    animation: rot 2s linear infinite;
+}
+
+.fa-solid{
+    margin-right: 15px;
+}
+
+@keyframes rot {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
